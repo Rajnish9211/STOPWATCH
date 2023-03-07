@@ -1,0 +1,77 @@
+/* Styling body part */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    background-color: #132f42;
+}
+  /* styling box which contains stopwatch*/
+.box{
+    background-color: #636368;
+    margin: auto;
+    margin-top: 15%;
+    width: 90vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 13rem;
+    box-shadow: -5px 7px 20px 12px #7986cb;
+}
+  
+h1 {
+    color: skyblue;
+    text-align: center;
+    text-decoration: solid;
+}
+  
+.digit {
+    margin-left: 7.5vw;
+    font-size: 100px;
+    color: hsl(0, 6%, 12%);
+}
+  
+.txt {
+    font-size: 30px;
+    color: #1a1915;
+}
+  
+#buttons {
+    margin-top: 50px;
+  
+}
+  /*styling all buttons*/
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 37px 125px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+
+  /*style button and their hovering effect*/
+#start {
+    background-color: #009779;
+}
+#start:hover{
+    background-color: #95e9dc;
+}
+  
+#stop {
+    background-color: #0e85fc;
+}
+#stop:hover {
+    background-color: #89b9e9;
+}
+  
+#reset {
+    background-color: #c91400;
+}
+#reset:hover{
+    background-color: #cd5547;
+}
